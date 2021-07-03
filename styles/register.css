@@ -1,0 +1,22 @@
+body {
+    background-color: white;
+    font-weight: 300;
+}
+
+.height {
+    height: 100vh;
+}
+
+.card {
+    border: none;
+    padding: 20px;
+    box-shadow:  3px 3px 5px #4f565c;
+
+
+}
+
+.signup {
+    height: 50px;
+    font-size: 14px;
+}
+

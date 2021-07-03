@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="118.213" height="56.486" viewBox="0 0 118.213 56.486">
+  <defs>
+    <filter id="Union_1" x="16.572" y="0" width="85.068" height="49.908" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.922"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Union_2" x="0" y="0" width="118.213" height="56.486" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.839"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="eekeer" x="8.106" y="0" width="103" height="51" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.8"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_3" data-name="Group 3" transform="translate(148.769 -661.26)">
+    <g id="Group_2" data-name="Group 2" transform="translate(-139.769 667.26)">
+      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Union_1)">
+        <path id="Union_1-2" data-name="Union 1" d="M14.593,31.5c-10.649-.918-4.982-3.456,0-3.672s9.281,2.809,19.93,2.809a90.334,90.334,0,0,0,11.5-.842c1.839-1.377,4-3.535,4.407-6.269.733-4.923-5.112-6.971-4.211-11.717.468-2.467,2.561-4.333,4.463-5.556a146.387,146.387,0,0,0-19.889-1.58A128.48,128.48,0,0,0,12.31,6.16c1.006,1.973,2.228,5.121.643,6.475-2.393,2.046-9.377.226-11.185,0s2.963-.023,3.951-.9,0-2.62,0-2.62V7.319s-12.868-2.754,0-3.672c8.033-.573,26.1-.431,38.535-.243C49.427,2.127,73.3-3.509,65.526,3.3c-5.15,4.509-13.174,11.615-13.174,11.615s7.768,2.448,11.061,6.6S65.526,31.5,65.526,31.5H57.189s-14.2.408-26.82.408C24.058,31.908,18.143,31.806,14.593,31.5Z" transform="translate(25.57 6)" fill="#fff"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Union_2)">
+        <path id="Union_2-2" data-name="Union 2" d="M65.941,36.858c-13.613.313-32.54.582-42.721-.006-17.064-.985-31-8.8-13.934-9.786,10.893-.629,37.477,1.749,55.281,3.551V22.411c-12.317.835-44.95,2.907-55.154,2.15-13.751-1.019-10.443-5.327,2.466-6.628a16.15,16.15,0,0,1-.649-9.715C-4.515,6.892-3.7,4.513,13.665,3.295c3.648-4.156,10.749-4.38,14.769-.672,19.031-.54,44.022-.316,58.114.672,18.221,1.278,18.221,3.834,0,5.112-4.723.331-10.606-.8-17.093-1.937a105.373,105.373,0,0,0-18.2-1.995A105.617,105.617,0,0,0,35.463,5.934c5.561,1.879,12.67,4.291,12.67,7.1,0,3.652-11.665,4.942-16.843,6.686a92.709,92.709,0,0,0,10.725.61c10.158,0,16.929-1.543,22.553-2.26v-.3s1.3-.068,3.223-.014a25.525,25.525,0,0,1,3.333.014c5.166.383,6.674.9,6.466,1.461a10.407,10.407,0,0,1,4.331,2.518c2.225,2.39,3.251,7.548,3.251,7.548s-1.138,4.842-3.251,7.111c-1.446,1.553-3.856,2.071-6.427,2.071A35.827,35.827,0,0,1,65.941,36.858Z" transform="translate(9 6)" fill="#fff"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -148.77, 661.26)" filter="url(#eekeer)">
+      <text id="eekeer-2" data-name="eekeer" transform="translate(17.11 32)" fill="#fff" font-size="24" font-family="ComicSansMS-Bold, Comic Sans MS" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">eekeer</tspan></text>
+    </g>
+  </g>
+</svg>
