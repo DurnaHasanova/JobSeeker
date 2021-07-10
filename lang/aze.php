@@ -29,14 +29,15 @@ $gen_btn_submit="Əlavə et";
 $gen_btn_edit="Redaktə et";
 $gen_btn_update="Yenile";
 
-
-$newVacSelect="iş kateqoriyasını seçin";
+$newVacHeader="Yeni vakansiya";
+$newVacSelect="İş kateqoriyasını seçin";
 $newVacJobTitle="Vəzifə";
 $newVacMinSalary="Minimum əmək haqqı";
 $newVacMaxSalary="Maksimum əmək haqqı";
 $newVacJobDesc="Vəzifə öhdəlikləri";
 $newVacJobSkills="Bacarıqlar";
 $newVacButton="Əlavə et";
+$newVacExpDate="Bitmə tarixi";
 
 $newVacSelectError='Zəhmət olmasa kateqoriyanı seçin';
 $newVacJobTitleError="Vəzifə daxil edilməyib";
@@ -44,6 +45,7 @@ $newVacMinSalaryError="Minimum əmək haqqı daxil edilməyib";
 $newVacMaxSalaryError="Maximum mək haqqı daxil edilməyib";
 $newVacJobDescError="Vəzifə öhdəlikləri daxil edilməyib";
 $newVacJobSkillsError="Bacarıqlar daxil edilməyib";
+$newVacExpDateError="Bitmə tarixi seçilməyib";
 
 
 

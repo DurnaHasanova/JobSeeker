@@ -6,7 +6,8 @@ $companyService = new CompanyService();
 $error = [];
 $successResult = "";
 $caction = isset($_REQUEST["caction"])?$_REQUEST["caction"]:"insert";
-
+//TODO error mesajlari fayla cixartmaq lazimdir
+//TODO olkeleri select list saklinde qoymaq
 if (isset($_POST['name']) && $_POST["name"] == "") array_push($error, "Company Name can not be null");
 if (isset($_POST['webPage']) && $_POST["webPage"] == "") array_push($error, "WebPage can not be null1");
 if (isset($_POST['address']) && $_POST["address"] == "") array_push($error, "Company Name can not be null1");

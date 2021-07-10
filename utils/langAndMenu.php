@@ -7,7 +7,7 @@ $pageCode="";
 if (mysqli_num_rows($result) > 0) {
     setcookie("lang", $lang);
 } elseif (isset($_COOKIE["lang"])) $lang = $_COOKIE["lang"];
-else $lang = 1;
+else { $lang = 1;}
 
 if (isset($_GET["page"])) {
     setcookie("page", $_GET["page"]);
@@ -36,4 +36,4 @@ if ($lang == 1) $dictionary = 'lang/aze.php';
 elseif ($lang == 2) $dictionary = 'lang/eng.php';
 elseif ($lang == 3) $dictionary = 'lang/rus.php';
 
-include $dictionary;
+

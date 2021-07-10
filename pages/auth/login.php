@@ -9,14 +9,15 @@ if(isset($_POST['login']) && isset($_POST["password"])){
         $row = mysqli_fetch_array($result);
 
         $password = md5($_POST["password"]);
-        echo $password;
+
 
         if($row["password"]!=$password){
             $error=$INCORRECT_PASSWORD;
         }
         elseif(!$row['status']) $error=$USER_BLOCKED;
         else {
-
+            echo $password;
+            echo $row["password"];
 
             $_SESSION["userName"] = $row["name"];
             $_SESSION["userId"] = $row["id"];

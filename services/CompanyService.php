@@ -1,6 +1,7 @@
 <?php
 include '././model/Result.php';
 include '././constants/ReturnCode.php';
+
 class CompanyService
 {
 

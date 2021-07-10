@@ -1,4 +1,5 @@
 <?php
+
 $sql = "select short from language where id=" . $lang;
 $result = mysqli_query($connection, $sql);
 $row = mysqli_fetch_array($result);

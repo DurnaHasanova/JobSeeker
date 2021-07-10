@@ -31,12 +31,14 @@ $gen_btn_submit="Submit";
 $gen_btn_edit="Edit";
 $gen_btn_update="Update";
 
+$newVacHeader="New vacancy";
 $newVacSelect="Choose job category";
 $newVacJobTitle="Job Title";
 $newVacMinSalary="Minimum salary";
 $newVacMaxSalary="Maximum salary";
 $newVacJobDesc="Job description";
 $newVacJobSkills="Skills";
+$newVacExpDate="Expire date";
 $newVacButton="Add";
 
 $newVacSelectError='Please choose category';
@@ -45,6 +47,7 @@ $newVacMinSalaryError="Minimum salary must be filled";
 $newVacMaxSalaryError="Maximum salary must be filled";
 $newVacJobDescError="Job description must be filled";
 $newVacJobSkillsError="Skills must be filled";
+$newVacExpDateError="Expire date must be filled";
 
 
 $EMAIL_IS_EXIST='The user already has been registrated';
